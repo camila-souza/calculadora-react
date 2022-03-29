@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('../fonts/RobotoMono-Thin.ttf');
+}
+
+*{
+    font-family: 'RobotoMono', monospace;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    background: linear-gradient(to right, #757F9A, #D7DDE8);
+}
+.calculator{
+    height: 350px;
+    width: 400px;
+
+    border-radius: 5px;
+    overflow: hidden;
+    display:grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 1fr 45px 45px 45px 45px 45px;
+    -webkit-box-shadow: 6px 6px 9px 1px rgba(0,0,0,0.52); 
+    box-shadow: 6px 6px 9px 1px rgba(0,0,0,0.52);
+
+    /* From https://css.glass */
+}

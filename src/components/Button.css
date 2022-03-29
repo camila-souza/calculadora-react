@@ -1,0 +1,70 @@
+:root {
+    --bg-button: #1f1f1f;
+    --bg-button-hover: #252525;
+    --bg-button-active: #141414;
+}
+/* --- Button Size Grid --- */
+.button.double{
+    grid-column: span 2;
+}
+.button.triple {
+    grid-column: span 3;
+}
+/* -------------------- */
+
+/* --- Button --- */
+.button {
+    font-size: 1.1em;
+    background-color: var(--bg-button);
+    border: none;
+    outline: none;
+    font-weight: 600;
+    color: #fff
+}
+.button:active {
+    background-color: var(--bg-button-active);
+}
+.button:hover{
+    background-color: var(--bg-button-hover);
+}
+/* -------------------- */
+
+/* --- Button AC --- */
+.button.ac{
+    background-color: var(--bg-button);
+    color: rgb(255, 23, 23);
+    font-weight: 600;
+}
+.button.ac:hover{
+    background-color: var(--bg-button-hover) ;
+}
+.button.ac:active{
+    background-color: var(--bg-button-active);
+}
+/* -------------------- */
+
+/* --- Button Equals --- */
+.button.equals{
+    background-color: rgb(36, 86, 129);
+    color: #fff;
+}
+.button.equals:hover{
+    background-color: rgb(43, 94, 138);
+}
+.button.equals:active{
+    background-color: rgb(37, 80, 117);
+}
+/* -------------------- */
+
+/* --- Button Operation --- */
+.button.operation{
+    background-color: var(--bg-button);
+    color: rgb(52, 225, 255);
+    font-weight: 400;
+}
+.button.operation:active{
+    background-color: var(--bg-button-active);
+}
+.button.operation:hover{
+    background-color: var(--bg-button-hover);
+}
